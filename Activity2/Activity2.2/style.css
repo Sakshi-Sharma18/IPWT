@@ -1,0 +1,53 @@
+.logo{
+    background-color: #710193;
+    color: white;
+    padding-left: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    height: 2em;
+}
+::placeholder{
+    color:white;
+}
+input{
+    background-color: #710193;
+    color: white;
+}
+div {
+    width: 335px;
+    padding: 10px;
+    border: 5px solid #2E0140;
+    margin: 0;
+    background-color: #2E0140;
+}
+#fname{
+    background-image: url(username.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+#email{
+    background-image: url(email.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+#pass{
+    background-image: url(password.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+#Cpass{
+    background-image: url(confirmpass.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+#phn{
+    background-image: url(phone.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
